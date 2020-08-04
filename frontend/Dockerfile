@@ -1,4 +1,3 @@
-#test
 FROM centos:7
 MAINTAINER snehalshinde2112@gmail.com
 RUN yum -y update

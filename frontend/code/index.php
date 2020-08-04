@@ -9,7 +9,6 @@ function insertlabassoc($dbo,$sql)
         $stmt = $dbo->prepare($sql);
         $stmt->execute();
 }
-//test
 $labdbhost_name =  getenv("MY_DB_HOST_WRITE");
 $labdbhost_read_name =  getenv("MY_DB_HOST_READ");
 $labdatabase =  getenv("MY_DB_NAME");
